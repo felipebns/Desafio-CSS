@@ -12,7 +12,7 @@ Algumas informações úteis e dicas:
       #fcb02b
     Tons de cinza:
       #2c2c2c
-      #4c4c4c
+      #4c4c4cD
     Cores dos cards:
       #ead3a7
       #9de0f5
@@ -84,6 +84,8 @@ main{
   width: 17%;
   height: 10rem;
   border-radius: 3%;
+  display: flex;
+  flex-direction: column;
 }
 .card-color-1{
   background-color: #ead3a7;
@@ -150,10 +152,16 @@ main{
 
 .card-content{
   font-family: "Permanent Marker", cursive;
+  display: flex;
   padding: 0.5rem;
   font-size: 1rem;
-  text-align: center;
+  align-self: center;
+  color: #4c4c4c;
+  margin-top: auto;
+  margin-bottom: auto;
 }
+/* 2c2c2c
+4c4c4cD */
 
 .btn {
   position: relative;
